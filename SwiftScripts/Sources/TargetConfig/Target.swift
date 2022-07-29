@@ -51,6 +51,7 @@ public enum Target: CaseIterable {
         operationSearchPaths: [graphQLFolder.appendingPathComponent("**/*.graphql").path]
       )
 
+
     default:
       return ApolloCodegenConfiguration.FileInput(
         schemaPath: schemaURL(fromTargetRoot: targetRootURL).path,
@@ -76,9 +77,6 @@ public enum Target: CaseIterable {
     let graphQLFolder = graphQLFolder(fromTargetRoot: targetRootURL)
 
     switch self {
-    case .upload:
-      return graphQLFolder.appendingPathComponent("schema.json")
-
     case .animalKingdom:
       return graphQLFolder.appendingPathComponent("AnimalSchema.graphqls")
 
