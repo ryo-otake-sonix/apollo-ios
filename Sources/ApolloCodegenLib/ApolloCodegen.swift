@@ -193,17 +193,6 @@ public class ApolloCodegen {
           forConfig: config,
           fileManager: fileManager
         )
-
-        if config.output.testMocks != .none {
-          try MockUnionFileGenerator(
-            graphqlUnion: graphQLUnion,
-            ir: ir,
-            config: config
-          ).generate(
-            forConfig: config,
-            fileManager: fileManager
-          )
-        }
       }
     }
 
@@ -225,6 +214,23 @@ public class ApolloCodegen {
         try CustomScalarFileGenerator(graphqlScalar: graphQLScalar, config: config)
           .generate(forConfig: config, fileManager: fileManager)
       }
+    }
+
+    if config.output.testMocks != .none {
+      try MockUnionsFileGenerator(
+        ir: ir,
+        config: config
+      )?.generate(
+        forConfig: config,
+        fileManager: fileManager
+      )
+      try MockInterfacesFileGenerator(
+        ir: ir,
+        config: config
+      )?.generate(
+        forConfig: config,
+        fileManager: fileManager
+      )
     }
 
     try SchemaFileGenerator(schema: ir.schema, config: config)
