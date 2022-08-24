@@ -1536,6 +1536,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D06224333DA00FC2E54 /* Apollo-Target-Framework.xcconfig */;
 			buildSettings = {
+				"ENABLE_BITCODE[sdk=appletvos*]" = NO;
+				"ENABLE_BITCODE[sdk=iphoneos*]" = NO;
+				"ENABLE_BITCODE[sdk=watchos*]" = NO;
 			};
 			name = Release;
 		};
