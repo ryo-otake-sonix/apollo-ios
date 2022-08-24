@@ -357,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D12224334FD00FC2E54 /* ApolloWebSocket-Target-Framework.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Debug;
 		};
@@ -364,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D12224334FD00FC2E54 /* ApolloWebSocket-Target-Framework.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Release;
 		};

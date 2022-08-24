@@ -1438,6 +1438,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2522433CAF00FC2E54 /* Apollo-Target-TestSupport.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Debug;
 		};
@@ -1445,6 +1446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2522433CAF00FC2E54 /* Apollo-Target-TestSupport.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Release;
 		};
@@ -1452,6 +1454,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2522433CAF00FC2E54 /* Apollo-Target-TestSupport.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = PerformanceTesting;
 		};
@@ -1480,6 +1483,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2222433C2800FC2E54 /* Apollo-Target-GitHubAPI.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Debug;
 		};
@@ -1487,6 +1491,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2222433C2800FC2E54 /* Apollo-Target-GitHubAPI.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Release;
 		};
@@ -1494,6 +1499,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2222433C2800FC2E54 /* Apollo-Target-GitHubAPI.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = PerformanceTesting;
 		};
@@ -1560,6 +1566,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2122433C1900FC2E54 /* Apollo-Target-StarWarsAPI.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Debug;
 		};
@@ -1567,6 +1574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2122433C1900FC2E54 /* Apollo-Target-StarWarsAPI.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Release;
 		};
@@ -1616,6 +1624,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D2122433C1900FC2E54 /* Apollo-Target-StarWarsAPI.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = PerformanceTesting;
 		};

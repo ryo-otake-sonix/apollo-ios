@@ -517,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D10224334EC00FC2E54 /* ApolloSQLite-Target-Framework.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Debug;
 		};
@@ -524,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D10224334EC00FC2E54 /* ApolloSQLite-Target-Framework.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Release;
 		};
@@ -531,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D262243404B00FC2E54 /* ApolloSQLite-Target-TestSupport.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Debug;
 		};
@@ -538,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90690D262243404B00FC2E54 /* ApolloSQLite-Target-TestSupport.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 			};
 			name = Release;
 		};
